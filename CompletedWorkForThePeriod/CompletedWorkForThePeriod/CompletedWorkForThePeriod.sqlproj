@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>CompletedWorkForThePeriod</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{0e2bdb23-2aef-40b1-aa8f-f3cd21c64765}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>CompletedWorkForThePeriod</RootNamespace>
+    <AssemblyName>CompletedWorkForThePeriod</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Snapshots" />
+    <Folder Include="PBI_11709\" />
+    <Folder Include="PBI_11709\Tables\" />
+    <Folder Include="PBI_11709\Views\" />
+    <Folder Include="PBI_11709\Stored Procedures\" />
+    <Folder Include="Security\" />
+    <Folder Include="Scripts" />
+    <Folder Include="PBI_11709\User-defined table types" />
+    <Folder Include="Scripts\dropObject" />
+    <Folder Include="Scripts\postDeployment" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snapshots\Baseline_20220715_14-51-33.dacpac" />
+    <None Include="Scripts\dropObject\dropSsisEnvironment.sql" />
+    <None Include="Scripts\dropObject\dropSsisDeployment.sql" />
+    <None Include="Scripts\dropObject\dropSsisFolder.sql" />
+    <None Include="dev_completedWorkForThePeriod.publish.xml" />
+    <None Include="Scripts\postDeployment\initializeSchema.sql" />
+    <None Include="Scripts\dropObject\dropDbObject.sql" />
+    <None Include="prod_completedWorkForThePeriod.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="PBI_11709\Tables\fctCompletedWorkForThePeriod.sql" />
+    <Build Include="PBI_11709\Tables\fctInventoryJournal.sql" />
+    <Build Include="PBI_11709\Tables\fctJobTicket.sql" />
+    <Build Include="PBI_11709\Tables\fctPrintout.sql" />
+    <Build Include="PBI_11709\Tables\stageInventoryJournalByMovementType.sql" />
+    <Build Include="PBI_11709\Tables\stageInventoryJournalBySpecificationType.sql" />
+    <Build Include="PBI_11709\Tables\stageInventoryJournalByTransferType.sql" />
+    <Build Include="PBI_11709\Tables\stageJobTicket.sql" />
+    <Build Include="PBI_11709\Tables\stageJobTicketByRepairControlType.sql" />
+    <Build Include="PBI_11709\Tables\stageJobTicketByTestType.sql" />
+    <Build Include="PBI_11709\Tables\stagePrintout.sql" />
+    <Build Include="PBI_11709\Views\vCompletedWorkForThePeriod.sql" />
+    <Build Include="PBI_11709\Views\vInventoryJournalByMovementType.sql" />
+    <Build Include="PBI_11709\Views\vInventoryJournalBySpecificationType.sql" />
+    <Build Include="PBI_11709\Views\vInventoryJournalByTransferType.sql" />
+    <Build Include="PBI_11709\Views\vJobTicket.sql" />
+    <Build Include="PBI_11709\Views\vJobTicketByRepairControlType.sql" />
+    <Build Include="PBI_11709\Views\vJobTicketByTestType.sql" />
+    <Build Include="PBI_11709\Views\vPrintout.sql" />
+    <Build Include="PBI_11709\Stored Procedures\fctCompletedWorkForThePeriod_sync.sql" />
+    <Build Include="PBI_11709\Stored Procedures\fctInventoryJournal_sync.sql" />
+    <Build Include="PBI_11709\Stored Procedures\fctJobTicket_sync.sql" />
+    <Build Include="PBI_11709\Stored Procedures\fctPrintout_sync.sql" />
+    <Build Include="PBI_11709\Stored Procedures\main_sync.sql" />
+    <Build Include="Security\pbi_11709.sql" />
+    <Build Include="PBI_11709\Stored Procedures\stageProjectTable_truncate.sql" />
+    <Build Include="PBI_11709\Stored Procedures\stagePrimaryKey_delete.sql" />
+    <Build Include="PBI_11709\Stored Procedures\stagePrimaryKey_create.sql" />
+    <Build Include="PBI_11709\Tables\errorLog.sql" />
+    <Build Include="PBI_11709\Stored Procedures\errorLog_insert.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisProjectFolder_create.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironment_create.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironmentVariable_validate.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisProject_create.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironmentVariable_create.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironmentVariable_delete.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisProject_deploy.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironmentReference_create.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisIsEnvironmentReferenceNotExists_validate.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironmentToProjectConnection_sync.sql" />
+    <Build Include="PBI_11709\User-defined table types\udtEnvironmentVariable.sql" />
+    <Build Include="PBI_11709\User-defined table types\udtProjectParameter.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironmentToProjectConnection_create.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisProjectParameter_set.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisIsEnvironmentVariableExists_validate.sql" />
+    <Build Include="PBI_11709\Stored Procedures\ssisEnvironmentVariable_get.sql" />
+    <None Include="Scripts\dropObject\dropJob.sql" />
+    <None Include="Scripts\dropObject\dropObjects.sql" />
+    <None Include="Scripts\dropObject\dropSchemas.sql" />
+    <None Include="Scripts\dropObject\dropSsisProject.sql" />
+    <Build Include="PBI_11709\Tables\ssisProject.sql" />
+    <PostDeploy Include="Scripts\postDeployment\Script.PostDeployment1.sql" />
+    <None Include="Scripts\postDeployment\initializeObjects.sql" />
+    <None Include="Scripts\postDeployment\deploySsisProject.sql" />
+    <None Include="Scripts\postDeployment\createJob.sql" />
+    <Build Include="PBI_11709\Tables\projectSchema.sql" />
+    <Build Include="PBI_11709\Tables\dbObject.sql" />
+    <Build Include="PBI_11709\Stored Procedures\fctCompletedWorkForThePeriod_get.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="11709_CompletedWorkForThePeriod.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="ALERT_OPERATOR_NAME">
+      <DefaultValue>InteractiveExcelReport_operator</DefaultValue>
+      <Value>$(SqlCmdVar__8)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="DB_SOURCE_NAME">
+      <DefaultValue>AX_Test</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="DB_TARGET_NAME">
+      <DefaultValue>Stms_Ax_Reports</DefaultValue>
+      <Value>$(SqlCmdVar__2)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="ISPACK_PATH">
+      <DefaultValue>\\EKA-AX-DEV-02\C$\MyProjects\Stms.Ax.Reports\Учет СЛД\Pbi_11709_Отчет_выполненные_работы_за_период\CompletedWorkForThePeriod_Sync\CompletedWorkForThePeriod_Sync\bin\Development\CompletedWorkForThePeriod_Sync.ispac</DefaultValue>
+      <Value>$(SqlCmdVar__7)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="JOB_LAUNCHER_NAME">
+      <DefaultValue>EKA\AX_UserPurchase</DefaultValue>
+      <Value>$(SqlCmdVar__6)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="SERVER_SOURCE_NAME">
+      <DefaultValue>EKA-AX-SQL-01</DefaultValue>
+      <Value>$(SqlCmdVar__3)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="SERVER_TARGET_NAME">
+      <DefaultValue>EKA-AX-DEV-02</DefaultValue>
+      <Value>$(SqlCmdVar__4)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="UTC_OFFSET">
+      <DefaultValue>3</DefaultValue>
+      <Value>$(SqlCmdVar__5)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+</Project>

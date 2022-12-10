@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "CompletedWorkForThePeriod_Sync", "CompletedWorkForThePeriod_Sync\CompletedWorkForThePeriod_Sync.dtproj", "{C68DBA84-68A0-46C8-BE8E-CDC89647B833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C68DBA84-68A0-46C8-BE8E-CDC89647B833}.Debug|Any CPU.ActiveCfg = Development
+		{C68DBA84-68A0-46C8-BE8E-CDC89647B833}.Debug|Any CPU.Build.0 = Development
+		{C68DBA84-68A0-46C8-BE8E-CDC89647B833}.Development|Any CPU.ActiveCfg = Development
+		{C68DBA84-68A0-46C8-BE8E-CDC89647B833}.Development|Any CPU.Build.0 = Development
+		{C68DBA84-68A0-46C8-BE8E-CDC89647B833}.Release|Any CPU.ActiveCfg = Development
+		{C68DBA84-68A0-46C8-BE8E-CDC89647B833}.Release|Any CPU.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C7968F5-F7FB-4268-97A7-FCAA4ABFED87}
+	EndGlobalSection
+EndGlobal

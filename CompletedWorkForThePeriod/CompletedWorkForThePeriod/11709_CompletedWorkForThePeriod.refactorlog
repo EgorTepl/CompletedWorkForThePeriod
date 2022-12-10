@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="05fe2eda-89b1-4943-9bbb-5d546b326ae5" ChangeDateTime="07/12/2022 08:05:39">
+    <Property Name="ElementName" Value="[PBI_11709].[Vw_JobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vJobTicket]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="12188ae6-562b-41e5-b1d6-487e46e157e6" ChangeDateTime="07/12/2022 08:06:17">
+    <Property Name="ElementName" Value="[PBI_11709].[Vw_JobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vJobTicketByTestType]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c4c39260-5ebc-47ca-bf27-159dfaa29759" ChangeDateTime="07/12/2022 08:06:40">
+    <Property Name="ElementName" Value="[PBI_11709].[Vw_ReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vReceiptOfInventoryItem]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d996c4a-2802-41dd-b0b8-039d785f09a5" ChangeDateTime="07/12/2022 08:14:42">
+    <Property Name="ElementName" Value="[PBI_11709].[vJobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[v_JobTicket]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cc6cf630-f32c-4b85-a9a5-05a665a8b788" ChangeDateTime="07/12/2022 08:15:11">
+    <Property Name="ElementName" Value="[PBI_11709].[vReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[v_ReceiptOfInventoryItem]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="93093afb-dcd5-4aa2-acea-cd40b966d368" ChangeDateTime="07/12/2022 08:16:09">
+    <Property Name="ElementName" Value="[PBI_11709].[vJobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[v_JobTicketByTestType]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6088d4e-5794-4267-a12c-1e1a3eab24b0" ChangeDateTime="07/12/2022 11:29:36">
+    <Property Name="ElementName" Value="[PBI_11709].[v_InventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[V_InventoryJournalBySpecificationType]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3fe42ec8-891c-42d3-a5c1-fe29d9cd3420" ChangeDateTime="07/12/2022 11:29:59">
+    <Property Name="ElementName" Value="[PBI_11709].[v_JobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[V_JobTicket]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f0913d2b-fb9e-4579-a13b-c4898d0433ec" ChangeDateTime="07/12/2022 11:30:24">
+    <Property Name="ElementName" Value="[PBI_11709].[v_JobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[V_JobTicketByRepairControlType]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="edca1cb0-6e54-4645-867f-63955f247770" ChangeDateTime="07/12/2022 11:30:39">
+    <Property Name="ElementName" Value="[PBI_11709].[v_JobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[V_JobTicketByTestType]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cac1d848-48f4-4c6f-b2d2-d3f3ffd474dc" ChangeDateTime="07/12/2022 11:30:52">
+    <Property Name="ElementName" Value="[PBI_11709].[v_ReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[V_ReceiptOfInventoryItem]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0e7b6adb-f776-423d-8164-05b01b70b066" ChangeDateTime="07/12/2022 11:56:20">
+    <Property Name="ElementName" Value="[PBI_11709].[V_InventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[PBI_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[V_InventoryJournalByMovementType]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6141e4ff-ff82-426c-86c7-d942717f6981" ChangeDateTime="07/13/2022 07:14:09">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp].[HRMOrganizationId_From]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[HrmOrganizationId_From]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d0679384-b6d7-4219-b686-45410d2623ff" ChangeDateTime="07/13/2022 07:14:20">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp].[HRMOrganizationId_To]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[HrmOrganizationId_To]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e862b98f-e4de-4b97-aade-57ac609e1d41" ChangeDateTime="07/13/2022 07:15:04">
+    <Property Name="ElementName" Value="[PBI_11709].[stageInventoryJournalByTransferType].[HRMOrganizationId_From]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PBI_11709].[stageInventoryJournalByTransferType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[HrmOrganizationId_From]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0c97baf6-2cc4-4640-a053-0adc3a81770f" ChangeDateTime="07/13/2022 07:15:48">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp].[HrmOrganizationId_From]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HrmOrganizationId_From" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b434e120-a5c9-4da2-ad1f-2f88549d1914" ChangeDateTime="07/13/2022 07:16:02">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp].[HrmOrganizationId_To]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HrmOrganizationId_To" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2ede8fd6-4b51-4d2e-870c-289836efb450" ChangeDateTime="07/13/2022 07:16:29">
+    <Property Name="ElementName" Value="[PBI_11709].[stageInventoryJournalByTransferType].[HrmOrganizationId_From]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PBI_11709].[stageInventoryJournalByTransferType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HrmOrganizationId_From" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7b8d1aac-02cc-454b-849c-a5a41a74ddff" ChangeDateTime="07/13/2022 07:17:01">
+    <Property Name="ElementName" Value="[PBI_11709].[stageInventoryJournalByTransferType].[HRMOrganizationId_To]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[PBI_11709].[stageInventoryJournalByTransferType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HrmOrganizationId_To" />
+  </Operation>
+  <Operation Name="Move Schema" Key="474f78ef-875b-492a-954c-986ebcb70c3e" ChangeDateTime="07/15/2022 09:54:56">
+    <Property Name="ElementName" Value="[Public].[Sp_CompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="33086314-f54c-4594-aa02-8e14eb40ca14" ChangeDateTime="07/15/2022 09:56:38">
+    <Property Name="ElementName" Value="[PBI_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="339ede9f-18f5-4e60-bd42-75dd2eb933a8" ChangeDateTime="07/15/2022 09:57:05">
+    <Property Name="ElementName" Value="[PBI_11709].[fctInventoryJournal]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c5eb3fe0-05de-4e67-8f7c-f3136720f252" ChangeDateTime="07/15/2022 09:57:27">
+    <Property Name="ElementName" Value="[PBI_11709].[fctJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="88f88803-2fe5-49a3-a317-080704d6395f" ChangeDateTime="07/15/2022 09:57:44">
+    <Property Name="ElementName" Value="[PBI_11709].[fctReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="cdf6650a-6180-41f4-8ccd-91518382e9cb" ChangeDateTime="07/15/2022 09:57:57">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByMovementType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="a8094117-ac2f-4e94-9b27-179a44edfe5e" ChangeDateTime="07/15/2022 09:58:09">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalBySpecificationType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="6f296f25-d931-4c5a-b856-b6528d10d4e6" ChangeDateTime="07/15/2022 09:58:20">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageInventoryJournalByTransferType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="f8e73dc7-596f-4c3e-9a3e-a8b9dd8d3610" ChangeDateTime="07/15/2022 09:58:31">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageJobTicket_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="00dae035-cfef-4118-bf1c-aa9f790e3f36" ChangeDateTime="07/15/2022 09:58:43">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageJobTicketByRepairControlType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="df0575c4-f04a-440a-8ecb-eb1293308864" ChangeDateTime="07/15/2022 09:59:02">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageJobTicketByTestType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="6d762996-2ec8-4bb5-929b-3615f980a344" ChangeDateTime="07/15/2022 09:59:47">
+    <Property Name="ElementName" Value="[PBI_11709].[Ssis_stageReceiptOfInventoryItem_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="14b8a50b-6f10-4658-a5e3-9ef682839c6a" ChangeDateTime="07/15/2022 09:59:58">
+    <Property Name="ElementName" Value="[PBI_11709].[stageInventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d973a45c-81d6-4c22-9c25-cc0fd026e3d5" ChangeDateTime="07/15/2022 10:00:09">
+    <Property Name="ElementName" Value="[PBI_11709].[stageInventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="85d4ea99-a68c-486f-91a3-d2cd7161f8a3" ChangeDateTime="07/15/2022 10:00:19">
+    <Property Name="ElementName" Value="[PBI_11709].[stageInventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="fe982add-0b6d-49b4-8b52-6e47801b18a5" ChangeDateTime="07/15/2022 10:00:30">
+    <Property Name="ElementName" Value="[PBI_11709].[stageJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d36a3b86-cfe3-456b-b34b-d180af1d7dda" ChangeDateTime="07/15/2022 10:00:43">
+    <Property Name="ElementName" Value="[PBI_11709].[stageJobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="ba481c85-e460-4487-81da-845ef91965b1" ChangeDateTime="07/15/2022 10:00:54">
+    <Property Name="ElementName" Value="[PBI_11709].[stageJobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="1c5f7089-b061-4281-ad1a-6826437124cd" ChangeDateTime="07/15/2022 10:01:04">
+    <Property Name="ElementName" Value="[PBI_11709].[stageReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="13a42a83-8ae2-4319-9039-8e882d832dab" ChangeDateTime="07/15/2022 10:02:09">
+    <Property Name="ElementName" Value="[PBI_11709].[V_CompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="eb7e38a0-6420-4eca-8248-19b533c3a600" ChangeDateTime="07/15/2022 10:02:25">
+    <Property Name="ElementName" Value="[PBI_11709].[V_InventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="98a6b99e-0e86-4b85-80d8-65be6e6d0cf4" ChangeDateTime="07/15/2022 10:02:35">
+    <Property Name="ElementName" Value="[PBI_11709].[V_InventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="1ed47e2c-0c34-4cf9-b260-c8e6b4ed5479" ChangeDateTime="07/15/2022 10:02:47">
+    <Property Name="ElementName" Value="[PBI_11709].[V_InventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="6f8c90b6-9827-4c4e-96cf-26d1b2580039" ChangeDateTime="07/15/2022 10:03:02">
+    <Property Name="ElementName" Value="[PBI_11709].[V_JobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="51fc9c02-5542-4624-b6c0-025899fbbe47" ChangeDateTime="07/15/2022 10:03:11">
+    <Property Name="ElementName" Value="[PBI_11709].[V_JobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="e4b3b02a-7ea9-40c8-a245-5f74917bcfa9" ChangeDateTime="07/15/2022 10:03:25">
+    <Property Name="ElementName" Value="[PBI_11709].[V_JobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="1aecd06b-807b-4256-943b-107f23d9a9da" ChangeDateTime="07/15/2022 10:03:35">
+    <Property Name="ElementName" Value="[PBI_11709].[V_ReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c64dc878-93b2-4b3d-9f41-aebf342dcc11" ChangeDateTime="07/15/2022 10:03:54">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_fctCompletedWorkForThePeriod_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="3b47713f-0a84-4a53-b766-4bb5e2cc1cd5" ChangeDateTime="07/15/2022 10:04:07">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_fctInventoryJournal_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c739ceb4-f225-456c-a6e6-d2902bd423df" ChangeDateTime="07/15/2022 10:04:21">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_fctJobTicket_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="0eb95968-8152-428f-8d09-41a996fc9156" ChangeDateTime="07/15/2022 10:04:31">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_fctReceiptOfInventoryItem_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="e140e276-0533-4373-9a20-ab2f0d5d952f" ChangeDateTime="07/15/2022 10:04:42">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_Main]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="20419f78-b5d6-4023-9886-d3cc68754710" ChangeDateTime="07/15/2022 10:04:51">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_stageInventoryJournalByMovementType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="e2a38266-0fce-43ff-b216-c3378edbebfa" ChangeDateTime="07/15/2022 10:04:59">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_stageInventoryJournalBySpecificationType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="96fbfb45-2d64-4a68-baba-38d647a74335" ChangeDateTime="07/15/2022 10:05:08">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_stageInventoryJournalByTransferType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="3de37eae-27bc-46c9-aad0-b44af5acc9da" ChangeDateTime="07/15/2022 10:05:22">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_stageJobTicket_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="689df0b4-9d37-4437-aff2-70c82337a68f" ChangeDateTime="07/15/2022 10:05:34">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_stageJobTicketByRepairControlType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="eabef250-c2e3-4350-affb-d2c01705e675" ChangeDateTime="07/15/2022 10:05:45">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_stageJobTicketByTestType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="b64cc4c9-c27c-40ee-ad73-a7a96f616c24" ChangeDateTime="07/15/2022 10:05:54">
+    <Property Name="ElementName" Value="[PBI_11709].[Sp_stageReceiptOfInventoryItem_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Plug" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="4cfc53ed-0f55-490d-8be9-68c8b11bcfec" ChangeDateTime="07/15/2022 10:09:08">
+    <Property Name="ElementName" Value="[Plug].[Sp_fctCompletedWorkForThePeriod_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d8b6e7da-ebd6-4b34-a834-d7a6e6c0d802" ChangeDateTime="07/15/2022 10:09:26">
+    <Property Name="ElementName" Value="[Plug].[Sp_fctInventoryJournal_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c49dadae-2782-4928-9ea3-a6c64c40bc43" ChangeDateTime="07/15/2022 10:09:41">
+    <Property Name="ElementName" Value="[Plug].[Sp_fctJobTicket_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="ae92ccc6-c2c9-4ac0-b62a-96d212052f54" ChangeDateTime="07/15/2022 10:09:52">
+    <Property Name="ElementName" Value="[Plug].[Sp_fctReceiptOfInventoryItem_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="91f5110a-30bc-4527-817e-ccc919d58ce1" ChangeDateTime="07/15/2022 10:10:04">
+    <Property Name="ElementName" Value="[Plug].[Sp_Main]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="784a2423-1cd6-416f-a049-aa83a7421ab6" ChangeDateTime="07/15/2022 10:10:15">
+    <Property Name="ElementName" Value="[Plug].[Sp_stageInventoryJournalByMovementType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="9426a00c-861a-4c64-aa0c-a0f5c885f86d" ChangeDateTime="07/15/2022 10:10:26">
+    <Property Name="ElementName" Value="[Plug].[Sp_stageInventoryJournalBySpecificationType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="12e20db7-fe2d-4dba-b1c8-5e82308e4f5e" ChangeDateTime="07/15/2022 10:10:48">
+    <Property Name="ElementName" Value="[Plug].[Sp_stageInventoryJournalByTransferType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="a82c0acd-be1b-4120-896f-4574cd6e3a45" ChangeDateTime="07/15/2022 10:10:57">
+    <Property Name="ElementName" Value="[Plug].[Sp_stageJobTicket_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="bbe47dd9-166f-4286-9011-822045aee6d6" ChangeDateTime="07/15/2022 10:11:15">
+    <Property Name="ElementName" Value="[Plug].[Sp_stageJobTicketByRepairControlType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="a3030363-4523-487f-9fdf-035875a41848" ChangeDateTime="07/15/2022 10:11:31">
+    <Property Name="ElementName" Value="[Plug].[Sp_stageJobTicketByTestType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="0fc720c4-a7ea-4f4c-86e8-58b2df877e04" ChangeDateTime="07/15/2022 10:11:42">
+    <Property Name="ElementName" Value="[Plug].[Sp_stageReceiptOfInventoryItem_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="9fb8a6d5-74e2-4ae2-b285-ab308680e5db" ChangeDateTime="07/15/2022 10:13:04">
+    <Property Name="ElementName" Value="[Plug].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c61f6959-4b9e-4cea-bd8b-aae5379595c0" ChangeDateTime="07/15/2022 10:13:17">
+    <Property Name="ElementName" Value="[Common].[fctInventoryJournal]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="65e5d3d7-6ddc-4954-9cf3-92ab06393dd2" ChangeDateTime="07/15/2022 10:13:32">
+    <Property Name="ElementName" Value="[Plug].[fctJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="ba412fa8-7b7f-4218-aefb-f733f7e1b64c" ChangeDateTime="07/15/2022 10:13:44">
+    <Property Name="ElementName" Value="[Plug].[fctReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="e796cf65-5330-4373-8fcf-970666d064ab" ChangeDateTime="07/15/2022 10:13:57">
+    <Property Name="ElementName" Value="[Plug].[Ssis_stageInventoryJournalByMovementType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="9a29e725-1226-4383-9790-f090f4c16a9b" ChangeDateTime="07/15/2022 10:14:09">
+    <Property Name="ElementName" Value="[Plug].[Ssis_stageInventoryJournalBySpecificationType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="cfc6d1f0-0be3-42e4-ba35-4880127b2c9a" ChangeDateTime="07/15/2022 10:14:19">
+    <Property Name="ElementName" Value="[Plug].[Ssis_stageInventoryJournalByTransferType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="b3540946-db59-4399-83de-6db7a425fc58" ChangeDateTime="07/15/2022 10:14:32">
+    <Property Name="ElementName" Value="[Plug].[Ssis_stageJobTicket_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="112aec2a-1900-4812-b785-ae7123e18f7e" ChangeDateTime="07/15/2022 10:14:51">
+    <Property Name="ElementName" Value="[Plug].[Ssis_stageJobTicketByRepairControlType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="dfe5a659-60be-4e7e-94e1-83dc30447c10" ChangeDateTime="07/15/2022 10:15:00">
+    <Property Name="ElementName" Value="[Plug].[Ssis_stageJobTicketByTestType_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="94e67db7-36d6-48dd-9211-199a8d3132a6" ChangeDateTime="07/15/2022 10:15:12">
+    <Property Name="ElementName" Value="[Plug].[Ssis_stageReceiptOfInventoryItem_Temp]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="cf431222-e360-4341-8d56-627983b61ee1" ChangeDateTime="07/15/2022 10:15:21">
+    <Property Name="ElementName" Value="[Plug].[stageInventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="a942687c-435f-44cd-8bba-98027fbbeb0a" ChangeDateTime="07/15/2022 10:15:32">
+    <Property Name="ElementName" Value="[Plug].[stageInventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="e7c3b66f-5a45-4435-a8a9-41a732e8aba3" ChangeDateTime="07/15/2022 10:15:42">
+    <Property Name="ElementName" Value="[Plug].[stageInventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d071a06d-2ff7-4831-bf12-2b7fc7b37460" ChangeDateTime="07/15/2022 10:15:52">
+    <Property Name="ElementName" Value="[Plug].[stageJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2810601f-ebe5-4597-ad36-5b6bb1760b73" ChangeDateTime="07/15/2022 10:16:07">
+    <Property Name="ElementName" Value="[Plug].[stageJobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="343a2ed3-5daf-4c18-9ca7-14c7c8163b50" ChangeDateTime="07/15/2022 10:16:18">
+    <Property Name="ElementName" Value="[Plug].[stageJobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="93ac2b04-2857-4086-8d36-0a1118d4e855" ChangeDateTime="07/15/2022 10:16:32">
+    <Property Name="ElementName" Value="[Plug].[stageReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="f7e9ff30-ab4d-4bc2-a720-8a9eee1b1fe7" ChangeDateTime="07/15/2022 10:17:38">
+    <Property Name="ElementName" Value="[Plug].[V_CompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d7bf258c-0c44-479b-abbf-bd37a163e8a5" ChangeDateTime="07/15/2022 10:17:49">
+    <Property Name="ElementName" Value="[Plug].[V_InventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="8a2fd658-0e39-49c0-b6f4-2889073fb12d" ChangeDateTime="07/15/2022 10:17:57">
+    <Property Name="ElementName" Value="[Plug].[V_InventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="4317bc64-9407-4205-af7c-0cf4925e1161" ChangeDateTime="07/15/2022 10:18:07">
+    <Property Name="ElementName" Value="[Plug].[V_InventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2d4a664d-1e6e-4478-bece-0dd8790b6406" ChangeDateTime="07/15/2022 10:18:17">
+    <Property Name="ElementName" Value="[Plug].[V_JobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="773c1f86-6d92-4f68-8171-4165f8c14035" ChangeDateTime="07/15/2022 10:18:26">
+    <Property Name="ElementName" Value="[Plug].[V_JobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d1efdc20-4308-4b2b-b868-81a8ddb907e7" ChangeDateTime="07/15/2022 10:18:37">
+    <Property Name="ElementName" Value="[Plug].[V_JobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="f9049489-97c0-432c-8992-0876067ea48f" ChangeDateTime="07/15/2022 10:18:48">
+    <Property Name="ElementName" Value="[Plug].[V_ReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2985613e-ab96-42c0-bc3f-184208a41bf8" ChangeDateTime="08/17/2022 09:27:17">
+    <Property Name="ElementName" Value="[Common].[Sp_CompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="reportForUser" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a380dec4-9ef8-4bfa-b794-7cc04df31017" ChangeDateTime="08/17/2022 09:27:59">
+    <Property Name="ElementName" Value="[reportForUser].[Sp_CompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[reportForUser]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[sp_completedWorkForThePeriod]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="50e80b36-2c4e-4940-bf09-8a8cca068e69" ChangeDateTime="08/17/2022 09:39:32">
+    <Property Name="ElementName" Value="[reportForUser].[sp_completedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[reportForUser]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[sp_completedWorkForThePeriod_get]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3359e290-ae81-410e-b26b-b23f46b03f89" ChangeDateTime="08/17/2022 09:43:40">
+    <Property Name="ElementName" Value="[Pbi_11709].[Sp_fctCompletedWorkForThePeriod_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_fctCompletedWorkForThePeriod_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="52348790-29ac-4a1e-9b91-4e5ef95e6d49" ChangeDateTime="08/17/2022 09:43:53">
+    <Property Name="ElementName" Value="[reportForUser].[sp_completedWorkForThePeriod_get]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[reportForUser]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_completedWorkForThePeriod_get]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ab873870-4da3-4b3c-8d18-eb6ca9766ac6" ChangeDateTime="08/17/2022 09:45:19">
+    <Property Name="ElementName" Value="[Pbi_11709].[Sp_fctInventoryJournal_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_fctInventoryJournal_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7ad19ef1-df82-45cd-afaa-3e171385c3a6" ChangeDateTime="08/17/2022 09:46:06">
+    <Property Name="ElementName" Value="[Pbi_11709].[Sp_fctJobTicket_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_fctJobTicket_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="95dc4ef3-15a3-4595-a192-ba2e2c991637" ChangeDateTime="08/17/2022 09:46:31">
+    <Property Name="ElementName" Value="[Pbi_11709].[Sp_fctReceiptOfInventoryItem_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_fctReceiptOfInventoryItem_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ce7e5414-e72a-4f5d-b4d6-0b67f7083291" ChangeDateTime="08/17/2022 09:47:24">
+    <Property Name="ElementName" Value="[Pbi_11709].[Sp_Main]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_main_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f11807c1-c4bb-45d1-bc0e-2fc5cadc8604" ChangeDateTime="08/17/2022 09:47:53">
+    <Property Name="ElementName" Value="[Pbi_11709].[Sp_stageInventoryJournalByMovementType_Sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[usp_stageInventoryJournalByMovementType_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6a81bf4d-6e69-42db-b22b-599e2bf57087" ChangeDateTime="08/17/2022 09:59:46">
+    <Property Name="ElementName" Value="[Pbi_11709].[usp_fctCompletedWorkForThePeriod_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctCompletedWorkForThePeriod_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cf42ea5b-9791-49b4-ab86-3ad7fbd4c061" ChangeDateTime="08/17/2022 10:00:35">
+    <Property Name="ElementName" Value="[Pbi_11709].[usp_fctInventoryJournal_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctInventoryJournal_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="16de4865-a2dc-4d0d-8d56-e00e8db2c1b1" ChangeDateTime="08/17/2022 10:01:07">
+    <Property Name="ElementName" Value="[Pbi_11709].[usp_fctJobTicket_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctJobTicket_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5e89c5a8-c6a6-4524-b60d-1cdf7afbef3d" ChangeDateTime="08/17/2022 10:01:30">
+    <Property Name="ElementName" Value="[Pbi_11709].[usp_fctReceiptOfInventoryItem_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctReceiptOfInventoryItem_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="93d472af-7516-48f8-9abc-411b85f4141c" ChangeDateTime="08/17/2022 10:01:50">
+    <Property Name="ElementName" Value="[Pbi_11709].[usp_main_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[main_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa2eaab6-160f-4bdb-b1f5-b04016ba429a" ChangeDateTime="08/17/2022 10:02:18">
+    <Property Name="ElementName" Value="[Pbi_11709].[usp_stageInventoryJournalByMovementType_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[stageInventoryJournalByMovementType_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e717bd6-62b6-4f77-bddf-e52abdc7a1e4" ChangeDateTime="08/17/2022 10:02:41">
+    <Property Name="ElementName" Value="[reportForUser].[usp_completedWorkForThePeriod_get]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[reportForUser]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[completedWorkForThePeriod_get]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="5831fe75-2105-4be0-8339-f4bbbbcef72d" ChangeDateTime="08/17/2022 10:45:47">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="0bfff3ac-92b2-4193-93fb-8786e60df5d0" ChangeDateTime="08/17/2022 10:46:02">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctInventoryJournal]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2515c73a-d6e6-4a53-b897-00fee8e2dc8a" ChangeDateTime="08/17/2022 10:46:16">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="b2963ad0-4c46-4e43-a4b5-f7cedc2da8a6" ChangeDateTime="08/17/2022 10:46:25">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="f9c003fa-582b-4a5f-a5b2-db3dfcddbe60" ChangeDateTime="08/17/2022 10:46:36">
+    <Property Name="ElementName" Value="[Pbi_11709].[stageInventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="9ca807be-1bdc-438f-9f50-f8548a06edcc" ChangeDateTime="08/17/2022 10:46:47">
+    <Property Name="ElementName" Value="[Pbi_11709].[stageInventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c8d07af8-4c20-42a2-92a5-c8d5efbee3a8" ChangeDateTime="08/17/2022 10:46:57">
+    <Property Name="ElementName" Value="[Pbi_11709].[stageInventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="9fe41eb1-1732-4394-9047-11405683611e" ChangeDateTime="08/17/2022 10:47:07">
+    <Property Name="ElementName" Value="[Pbi_11709].[stageJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="db39f369-44f9-4a73-a38f-ba61f616d705" ChangeDateTime="08/17/2022 10:47:16">
+    <Property Name="ElementName" Value="[Pbi_11709].[stageJobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="d21c835b-7d4a-4b95-8996-0e11edb4eb61" ChangeDateTime="08/17/2022 10:47:26">
+    <Property Name="ElementName" Value="[Pbi_11709].[stageJobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="47ea48d2-5cd8-44a5-ad56-577041ee0b5f" ChangeDateTime="08/17/2022 10:47:38">
+    <Property Name="ElementName" Value="[Pbi_11709].[stageReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="db2ce745-eee7-4f3f-85b6-0b6dea8fc54a" ChangeDateTime="08/17/2022 10:47:54">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctCompletedWorkForThePeriod_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2914fabd-797f-4076-9ee8-90f4a822bbdb" ChangeDateTime="08/17/2022 10:48:09">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctInventoryJournal_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2d85790c-6998-4f77-9b3a-d828467a25cc" ChangeDateTime="08/17/2022 10:48:20">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctJobTicket_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="60be180d-a568-40e8-86dc-7fe38a19e3d7" ChangeDateTime="08/17/2022 10:48:30">
+    <Property Name="ElementName" Value="[Pbi_11709].[fctReceiptOfInventoryItem_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2ad28025-67c1-482c-9ecb-0b8c8527c50e" ChangeDateTime="08/17/2022 10:48:48">
+    <Property Name="ElementName" Value="[Pbi_11709].[main_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="956aa93b-ef60-4b40-883e-faf939d02349" ChangeDateTime="08/17/2022 10:49:17">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_CompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vCompletedWorkForThePeriod]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="a9bd4c17-2ff6-4962-926f-ec41c0607904" ChangeDateTime="08/17/2022 10:49:27">
+    <Property Name="ElementName" Value="[Pbi_11709].[vCompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c093c789-f66c-493c-bd6d-8a10033beecf" ChangeDateTime="08/17/2022 10:49:51">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_InventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vInventoryJournalByMovementType]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="a0e7541d-59a2-46dc-8e64-7e6f31f0f2d6" ChangeDateTime="08/17/2022 10:50:07">
+    <Property Name="ElementName" Value="[Pbi_11709].[vInventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0528cdd8-faf4-4a69-8b8c-b7771254e239" ChangeDateTime="08/17/2022 10:50:24">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_InventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vInventoryJournalBySpecificationType]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="8a68a8f9-aadd-49ff-9706-1f45a3458a8d" ChangeDateTime="08/17/2022 10:50:35">
+    <Property Name="ElementName" Value="[Pbi_11709].[vInventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8d4c9a07-cd09-4ce6-8f4a-c9a7fab68d70" ChangeDateTime="08/17/2022 10:51:06">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_InventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vInventoryJournalByTransferType]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="01ad09cb-9e53-471a-9cc5-c486f976224b" ChangeDateTime="08/17/2022 10:51:14">
+    <Property Name="ElementName" Value="[Pbi_11709].[vInventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e5323c64-911a-4e06-8339-5e83cc4ec8d8" ChangeDateTime="08/17/2022 10:51:30">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_JobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vJobTicket]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="fbb6924e-61ab-46fb-93ab-de06959b951e" ChangeDateTime="08/17/2022 10:51:46">
+    <Property Name="ElementName" Value="[Pbi_11709].[vJobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="02d467c9-4e45-4291-a911-cad2858f12ed" ChangeDateTime="08/17/2022 10:52:04">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_JobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vJobTicketByRepairControlType]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="2986b7b0-745f-4805-b5fd-42669fc6066b" ChangeDateTime="08/17/2022 10:52:12">
+    <Property Name="ElementName" Value="[Pbi_11709].[vJobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="958eaa28-2414-4f4a-bdd3-0a6042c3949d" ChangeDateTime="08/17/2022 10:52:29">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_JobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vJobTicketByTestType]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="842348c3-ecd1-4ced-a730-843dd319ef1f" ChangeDateTime="08/17/2022 10:52:40">
+    <Property Name="ElementName" Value="[Pbi_11709].[vJobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82adfaff-88c3-4061-bb62-2acb10da32e3" ChangeDateTime="08/17/2022 10:52:57">
+    <Property Name="ElementName" Value="[Pbi_11709].[V_ReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[Pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vReceiptOfInventoryItem]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="7cecd0bf-9b59-4d12-95fb-21053552a9b4" ChangeDateTime="08/17/2022 10:53:09">
+    <Property Name="ElementName" Value="[Pbi_11709].[vReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="Common" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="def215dd-3edc-4a70-8a34-8bde895e557a" ChangeDateTime="08/17/2022 10:56:34">
+    <Property Name="ElementName" Value="[Common].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c31d429a-9098-4b9e-8567-bcfae1ce00c9" ChangeDateTime="08/17/2022 10:57:07">
+    <Property Name="ElementName" Value="[Common].[fctInventoryJournal]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="3767ae1d-0e09-479f-b977-420bb101ee25" ChangeDateTime="08/17/2022 10:57:36">
+    <Property Name="ElementName" Value="[Common].[fctJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="95843089-4e03-41ad-bed4-031a497a08f4" ChangeDateTime="08/17/2022 10:57:59">
+    <Property Name="ElementName" Value="[Common].[fctReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="8d15b870-1080-4673-a0c5-c8e9ba3ecc2e" ChangeDateTime="08/17/2022 10:58:17">
+    <Property Name="ElementName" Value="[Common].[stageInventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="3ab47797-5006-4cee-bbfb-b8ad15bcf804" ChangeDateTime="08/17/2022 10:58:33">
+    <Property Name="ElementName" Value="[Common].[stageInventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="dd15e972-7dec-45d0-9d69-4fa8030238b2" ChangeDateTime="08/17/2022 10:58:48">
+    <Property Name="ElementName" Value="[Common].[stageInventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="13954863-b212-45cc-bfa6-8d125998f827" ChangeDateTime="08/17/2022 10:59:06">
+    <Property Name="ElementName" Value="[Common].[stageJobTicket]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="3a0ac28b-3544-4382-a7c7-2c12fa0b5263" ChangeDateTime="08/17/2022 10:59:29">
+    <Property Name="ElementName" Value="[Common].[stageJobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="c8bdac12-5373-40d0-a9d6-f114120da159" ChangeDateTime="08/17/2022 11:00:04">
+    <Property Name="ElementName" Value="[Common].[stageJobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="44b3b390-2ed7-4664-a549-a6f592f2604a" ChangeDateTime="08/17/2022 11:00:18">
+    <Property Name="ElementName" Value="[Common].[stageReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="aebdb79a-3472-47f3-8724-f2b5d7979b12" ChangeDateTime="08/17/2022 11:00:47">
+    <Property Name="ElementName" Value="[Common].[vCompletedWorkForThePeriod]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="87b61f96-646e-4e86-aea9-8810981b7cc3" ChangeDateTime="08/17/2022 11:01:03">
+    <Property Name="ElementName" Value="[Common].[vInventoryJournalByMovementType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="4c92dae6-16df-4194-b70d-57cb316375db" ChangeDateTime="08/17/2022 11:01:14">
+    <Property Name="ElementName" Value="[Common].[vInventoryJournalBySpecificationType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="fe5c710b-8325-484e-9f8b-88ecb91f446d" ChangeDateTime="08/17/2022 11:01:24">
+    <Property Name="ElementName" Value="[Common].[vInventoryJournalByTransferType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="4ef1809c-9d3e-428c-8582-175a31173be3" ChangeDateTime="08/17/2022 11:01:34">
+    <Property Name="ElementName" Value="[Common].[vJobTicket]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="8b3f3bd1-4ee7-4f65-815f-0ce86a31dc03" ChangeDateTime="08/17/2022 11:01:43">
+    <Property Name="ElementName" Value="[Common].[vJobTicketByRepairControlType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="933bff04-ae9f-452e-ba95-d4e8194a5a41" ChangeDateTime="08/17/2022 11:01:55">
+    <Property Name="ElementName" Value="[Common].[vJobTicketByTestType]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="0ab391b2-c9d9-44c3-bf49-a70976e57492" ChangeDateTime="08/17/2022 11:02:12">
+    <Property Name="ElementName" Value="[Common].[vReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="6e3106f1-7309-4b78-bcac-e4624375e5b6" ChangeDateTime="08/17/2022 11:02:57">
+    <Property Name="ElementName" Value="[Common].[fctCompletedWorkForThePeriod_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="4ec1859c-6a2c-462c-9669-a07a9caa01e6" ChangeDateTime="08/17/2022 11:03:17">
+    <Property Name="ElementName" Value="[Common].[fctInventoryJournal_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="ecf9b45b-84b2-4043-a7e3-2c37760fc0a5" ChangeDateTime="08/17/2022 11:03:27">
+    <Property Name="ElementName" Value="[Common].[fctJobTicket_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="76459d09-1e96-4df0-8014-ffe55c01d0d5" ChangeDateTime="08/17/2022 11:03:37">
+    <Property Name="ElementName" Value="[Common].[fctReceiptOfInventoryItem_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Move Schema" Key="948033cc-fe04-439c-a858-4f577a45067d" ChangeDateTime="08/17/2022 11:03:57">
+    <Property Name="ElementName" Value="[Common].[main_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="daa699b6-eb0d-4e7d-9b9c-0a390d9c91bd" ChangeDateTime="08/17/2022 11:41:52">
+    <Property Name="ElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod].[RecId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[recId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="13ae5e68-810e-4d05-b28b-581d8dd3fb30" ChangeDateTime="08/17/2022 11:42:27">
+    <Property Name="ElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod].[OperationTypeName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[operationTypeName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8164ab1d-d9b7-4a84-abb3-e58d96f2e604" ChangeDateTime="08/17/2022 11:42:37">
+    <Property Name="ElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod].[DocumentName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[documentName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="363e995a-c132-467f-afed-3d9a4fcf0ced" ChangeDateTime="08/17/2022 11:44:22">
+    <Property Name="ElementName" Value="[pbi_11709].[pk_fctCompletedWorkForThePeriod_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_fctCompletedWorkForThePeriod_recId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="35146c2f-5e39-487e-bef0-17ae4c50fcb1" ChangeDateTime="08/17/2022 11:44:37">
+    <Property Name="ElementName" Value="[pbi_11709].[pk_fctCompletedWorkForThePeriod_recId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Pk_fctCompletedWorkForThePeriod_recId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="acecade5-17b7-47ca-8d7e-5f3f16612882" ChangeDateTime="08/17/2022 11:45:23">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_fctCompletedWorkForThePeriod_recId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_fctCompletedWorkForThePeriod_recId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5f697b5e-be65-4818-af7c-b8bee4878014" ChangeDateTime="08/17/2022 11:46:40">
+    <Property Name="ElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod].[recId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0e89ba4-ea1e-45f7-8de4-f170d70d958b" ChangeDateTime="08/17/2022 11:47:10">
+    <Property Name="ElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod].[operationTypeName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[OperationTypeName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e2c5914-09ba-4456-86eb-a394b40b59d4" ChangeDateTime="08/17/2022 11:47:23">
+    <Property Name="ElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod].[documentName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[DocumentName]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a3174754-e4d3-4023-9f60-228759f2226f" ChangeDateTime="08/17/2022 11:48:15">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_fctInventoryJournal_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctInventoryJournal]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_fctInventoryJournal_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7cb93398-ebab-4caa-8546-ec7e131c27e9" ChangeDateTime="08/17/2022 11:48:37">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_fctJobTicket_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctJobTicket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_fctJobTicket_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fdb40131-5f6f-463a-8dd6-b409d454aa63" ChangeDateTime="08/17/2022 11:48:56">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_fctReceiptOfInventoryItem_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctReceiptOfInventoryItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_fctReceiptOfInventoryItem_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0d202d59-146e-4ecb-9f8f-98682ba27b2f" ChangeDateTime="08/17/2022 11:49:17">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_stageInventoryJournalByMovementType_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageInventoryJournalByMovementType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stageInventoryJournalByMovementType_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="498d7908-5eae-4b08-b2bb-13e89612a238" ChangeDateTime="08/17/2022 11:49:41">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_stageInventoryJournalBySpecificationType_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageInventoryJournalBySpecificationType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stageInventoryJournalBySpecificationType_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9adda897-561f-4c87-981a-a30fe5d1fdf7" ChangeDateTime="08/17/2022 11:49:58">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_stageInventoryJournalByTransferType_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageInventoryJournalByTransferType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stageInventoryJournalByTransferType_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4ad030f0-bda8-44b1-b1f3-39e43130932b" ChangeDateTime="08/17/2022 11:50:13">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_stageJobTicket_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageJobTicket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stageJobTicket_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7907ce19-c86e-4699-8cf0-0568061fb45b" ChangeDateTime="08/17/2022 11:50:32">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_stageJobTicketByRepairControlType_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageJobTicketByRepairControlType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stageJobTicketByRepairControlType_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="299d9d63-4b88-48cb-9d6d-654742b5baf9" ChangeDateTime="08/17/2022 11:50:53">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_stageJobTicketByTestType_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageJobTicketByTestType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stageJobTicketByTestType_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6f7ace33-5965-432f-9ed4-5142d62aff09" ChangeDateTime="08/17/2022 11:51:08">
+    <Property Name="ElementName" Value="[pbi_11709].[Pk_stageReceiptOfInventoryItem_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageReceiptOfInventoryItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stageReceiptOfInventoryItem_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="09b40069-3fdc-47fc-9882-e90cce04f730" ChangeDateTime="08/17/2022 12:42:38">
+    <Property Name="ElementName" Value="[pbi_11709].[object]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[projectTable]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="03f93c6f-783f-4348-910c-979c174d929a" ChangeDateTime="08/17/2022 12:42:54">
+    <Property Name="ElementName" Value="[pbi_11709].[pk_object_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[projectTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_projectTable_recId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f31cee59-2ff9-4478-8339-98c87ac179c3" ChangeDateTime="08/18/2022 11:03:45">
+    <Property Name="ElementName" Value="[pbi_11709].[dropPrimaryKey_delete]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[primaryKey_delete]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9b309ba5-699d-458c-ada4-f1f8dc151a0b" ChangeDateTime="08/18/2022 11:11:26">
+    <Property Name="ElementName" Value="[pbi_11709].[truncateTable_delete]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[stageProjectTable_truncate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="871a698a-412c-4646-80f5-a3ad7c106e93" ChangeDateTime="08/18/2022 11:12:28">
+    <Property Name="ElementName" Value="[pbi_11709].[primaryKey_create]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[stagePrimaryKey_create]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="776adb36-5844-4f43-8f45-6ddbe50b7c75" ChangeDateTime="08/18/2022 11:12:50">
+    <Property Name="ElementName" Value="[pbi_11709].[primaryKey_delete]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[stagePrimaryKey_delete]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7095b09d-5d43-4a5f-a0db-00aee06277b7" ChangeDateTime="08/19/2022 08:17:45">
+    <Property Name="ElementName" Value="[pbi_11709].[vReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlView" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[vPrintout]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="26c72ee5-2f3b-417f-8ea5-6574b46e47c8" ChangeDateTime="08/19/2022 08:18:22">
+    <Property Name="ElementName" Value="[pbi_11709].[stageReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[stagePrintout]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6aa56bf1-3bfd-4396-9f2e-ea1bd7859096" ChangeDateTime="08/19/2022 08:19:00">
+    <Property Name="ElementName" Value="[pbi_11709].[fctReceiptOfInventoryItem]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctPrintout]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="23892e15-402b-44d7-a1e7-e48849f734f4" ChangeDateTime="08/19/2022 08:20:45">
+    <Property Name="ElementName" Value="[pbi_11709].[fctReceiptOfInventoryItem_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctPrintout_update]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ab529a1d-c82e-46b2-bb69-4e9b42b338c9" ChangeDateTime="08/19/2022 08:21:24">
+    <Property Name="ElementName" Value="[pbi_11709].[pk_stageReceiptOfInventoryItem_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stagePrintout]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_stagePrintout_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f4fe230-28e0-43d0-aeb9-42c329100ee9" ChangeDateTime="08/19/2022 08:21:50">
+    <Property Name="ElementName" Value="[pbi_11709].[pk_fctReceiptOfInventoryItem_RecId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctPrintout]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_fctPrintout_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2dcedef7-22e8-4dd9-88db-80b8d9eba111" ChangeDateTime="08/22/2022 11:39:18">
+    <Property Name="ElementName" Value="[pbi_11709].[pk_fctCompletedWorkForThePeriod_recId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_fctCompletedWorkForThePeriod_RecId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea41bfa4-22b5-4190-90d2-9a2adc6f73c4" ChangeDateTime="08/23/2022 15:30:38">
+    <Property Name="ElementName" Value="[pbi_11709].[ssisEnvironmentVariable_create]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisEnvironmentVariable_validate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ff21def1-e8c1-4c4b-804b-d3c5bed1ddbc" ChangeDateTime="08/24/2022 11:13:24">
+    <Property Name="ElementName" Value="[pbi_11709].[errorLog_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[errorLog_insert]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed2bd022-5a7d-4cf1-8eed-48f12e12faf9" ChangeDateTime="08/24/2022 11:13:57">
+    <Property Name="ElementName" Value="[pbi_11709].[fctCompletedWorkForThePeriod_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctCompletedWorkForThePeriod_sync]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a012e26-a67e-4de4-8842-dfddebf8ff3c" ChangeDateTime="08/24/2022 11:14:22">
+    <Property Name="ElementName" Value="[pbi_11709].[fctInventoryJournal_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctInventoryJournal_sync]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cd399c1d-d7c6-4fea-a2ad-bb8a3053001f" ChangeDateTime="08/24/2022 11:14:39">
+    <Property Name="ElementName" Value="[pbi_11709].[fctJobTicket_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctJobTicket_sync]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="42fba1ce-f811-4b35-a0c0-e5b65f53b110" ChangeDateTime="08/24/2022 11:14:55">
+    <Property Name="ElementName" Value="[pbi_11709].[fctPrintout_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctPrintout_sync]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9f8c88c8-e3fb-4f2d-ae0f-1719c3f44871" ChangeDateTime="08/24/2022 11:15:11">
+    <Property Name="ElementName" Value="[pbi_11709].[main_update]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[main_sync]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d989d9d8-1feb-4c6d-9af5-e15723ef85d5" ChangeDateTime="08/24/2022 11:28:47">
+    <Property Name="ElementName" Value="[pbi_11709].[EnvironmentReference_validate]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisEnvironmentReference_validate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b39a0821-9487-4957-87ed-890bed74ab80" ChangeDateTime="08/24/2022 11:29:05">
+    <Property Name="ElementName" Value="[pbi_11709].[EnvironmentReference_create]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisEnvironmentReference_create]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9eba447c-bdc0-4490-81b0-955ac8608c91" ChangeDateTime="08/24/2022 12:25:33">
+    <Property Name="ElementName" Value="[pbi_11709].[ssisIsVariableExists_validate]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisIsEnvironmentVariableExists_validate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="deae4dd7-8fa2-4607-9db4-ee28a64b085a" ChangeDateTime="08/25/2022 15:12:06">
+    <Property Name="ElementName" Value="[pbi_11709].[ssisEnvironmentVariableToProject_sync]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisEnvironmentVariableToProject_add]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="beedf990-f197-4d9c-9d44-4fc96e75f7b7" ChangeDateTime="08/26/2022 07:46:52">
+    <Property Name="ElementName" Value="[dbo].[udtEnvironmentVariable]" />
+    <Property Name="ElementType" Value="SqlTableType" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9a694171-fcf4-4428-a538-832cc896030a" ChangeDateTime="08/26/2022 08:08:28">
+    <Property Name="ElementName" Value="[pbi_11709].[ssisEnvironmentVariableToProject_add]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisEnvironmentVariableToProjectParameter_add]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c3a611cc-a6fc-48d9-b172-dbb30e3b5279" ChangeDateTime="08/26/2022 08:59:33">
+    <Property Name="ElementName" Value="[pbi_11709].[ssisEnvironmentVariableToProjectParameter_add]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisEnvironmentToProjectConnection_sync]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3f38e08d-297d-4abe-b8f9-249e0c0351e3" ChangeDateTime="08/26/2022 09:45:56">
+    <Property Name="ElementName" Value="[pbi_11709].[udtProjectPrameter]" />
+    <Property Name="ElementType" Value="SqlTableType" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[udtProjectParameter]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="99078f69-b4e8-4e6d-991d-e194f2afaaaf" ChangeDateTime="08/26/2022 11:47:56">
+    <Property Name="ElementName" Value="[pbi_11709].[ssisIsEnvironmentReferenceExists_validate]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisIsEnvironmentReferenceNotExists_validate]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="80080967-4ab5-4449-bba3-f9bfb776e767" ChangeDateTime="08/29/2022 06:45:12">
+    <Property Name="ElementName" Value="[pbi_11709].[ssisEnvironmentVariable_insert]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ssisEnvironmentVariable_get]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6722dd3a-f09d-49b6-97a1-8cf30bfd79fa" ChangeDateTime="08/30/2022 12:15:30">
+    <Property Name="ElementName" Value="[pbi_11709].[stageInventoryJournalByMovementType].[ParentOrganizationId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[stageInventoryJournalByMovementType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[ParentOrganizationId_PostedHrmOrgId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a084f5c3-aaab-4cba-af5f-08617e0df19f" ChangeDateTime="08/30/2022 15:16:18">
+    <Property Name="ElementName" Value="[pbi_11709].[schema]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[projectSchema]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7b264556-8ab5-446e-a311-d308fdd741af" ChangeDateTime="08/30/2022 15:16:33">
+    <Property Name="ElementName" Value="[pbi_11709].[pk_schema_recId]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[projectSchema]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[pk_projectSchema_recId]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9403b207-4995-4bce-8495-2b008a03a14c" ChangeDateTime="09/02/2022 12:11:04">
+    <Property Name="ElementName" Value="[pbi_11709].[dbObject].[primaryKeyColumn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[pbi_11709].[dbObject]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="primaryKeyColumnName" />
+  </Operation>
+  <Operation Name="Move Schema" Key="6d9c81eb-2bba-4f44-a023-8466b4336a1e" ChangeDateTime="09/30/2022 11:41:32">
+    <Property Name="ElementName" Value="[reportForUser].[completedWorkForThePeriod_get]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="NewSchema" Value="pbi_11709" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="612c7770-c969-4b54-b396-56dba9a28f39" ChangeDateTime="09/30/2022 11:51:49">
+    <Property Name="ElementName" Value="[pbi_11709].[completedWorkForThePeriod_get]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[pbi_11709]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[fctCompletedWorkForThePeriod_get]" />
+  </Operation>
+</Operations>

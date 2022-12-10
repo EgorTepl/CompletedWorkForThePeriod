@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Pbi_11709_Sp_fctCompletedWorkForThePeriod_SyncTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for Pbi_11709.Sp_fctCompletedWorkForThePeriod_Sync
+DECLARE @RC AS INT;
+
+SELECT @RC = 0;
+
+EXECUTE @RC = [pbi_11709].[fctCompletedWorkForThePeriod_sync] ;
+
+SELECT @RC AS RC;
+
+</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctInventoryJournal_SyncTest_TestAction.SqlScript" xml:space="preserve">
+    <value>
+EXECUTE [pbi_11709].[fctInventoryJournal_sync]
+
+SELECT * FROM [pbi_11709].fctInventoryJournal
+
+</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctJobTicket_SyncTest_TestAction.SqlScript" xml:space="preserve">
+    <value>
+
+EXEC [pbi_11709].[fctJobTicket_sync]
+
+SELECT * FROM [pbi_11709].fctJobTicket</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctReceiptOfInventoryItem_SyncTest_TestAction.SqlScript" xml:space="preserve">
+    <value>
+EXECUTE [pbi_11709].[fctPrintout_sync] ;
+
+SELECT * FROM dbo.fctReceiptOfInventoryItem_Test
+
+EXCEPT
+
+SELECT * FROM [pbi_11709].[fctPrintout]</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctReceiptOfInventoryItem_SyncTest_PretestAction.SqlScript" xml:space="preserve">
+    <value>
+DROP TABLE IF EXISTS dbo.fctReceiptOfInventoryItem_Test
+
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageReceiptOfInventoryItem_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageReceiptOfInventoryItem_Temp
+END
+
+IF EXISTS (SELECT 1 FROM [pbi_11709].[stagePrintout])
+BEGIN
+	TRUNCATE TABLE [pbi_11709].[stagePrintout]
+END
+
+DECLARE @RecId INT = 1
+
+INSERT INTO PBI_11709.Ssis_stageReceiptOfInventoryItem_Temp
+(
+	RecId,
+	DocumentId,
+	DocumentDate,
+	JournalType,
+	HrmOrganizationId,
+	ParentOrganizationId,
+	ResponsibleWorkerName
+)
+VALUES
+(
+	@RecId,
+	'№ 000003',
+	'2018-10-17 00:00:00.000',
+	1,
+	'МОРХ',
+	'МУС',
+	'Новицкая Наталья Ивановна'
+);
+
+
+CREATE TABLE dbo.fctReceiptOfInventoryItem_Test
+(
+	[RecId]                  INT            IDENTITY (1, 1) NOT NULL,
+    [OperationTypeName]      NVARCHAR (29)  NOT NULL,
+    [DocumentName]           NVARCHAR (20)  NOT NULL,
+    [StatusName]             NVARCHAR (8)   NOT NULL,
+    [DateId]                 DATE           NOT NULL,
+    [RepairObjectName]       NVARCHAR (14)  NOT NULL,
+    [DescriptionName]        NVARCHAR (14)  NOT NULL,
+    [RepairObjectNumberName] NVARCHAR (14)  NOT NULL,
+    [ServiceKindName]        NVARCHAR (53)  NOT NULL,
+    [ManufactoryName]        NVARCHAR (14)  NOT NULL,
+    [DepotCodeName]          NVARCHAR (25)  NOT NULL,
+    [ParentDepotCodeName]    NVARCHAR (25)  NOT NULL,
+    [ResponsibleWorkerName]  NVARCHAR (40)  NOT NULL,
+    [Qty]                    NUMERIC (9, 3) NOT NULL,
+    [UnitName]               NVARCHAR (14)  NOT NULL,
+    [RepairedCount]          INT            NOT NULL,
+    [DateForReportName]      NVARCHAR (10)  NOT NULL
+)
+
+INSERT INTO dbo.fctReceiptOfInventoryItem_Test
+(
+	[OperationTypeName],
+    [DocumentName],
+    [StatusName],
+    [DateId],
+    [RepairObjectName],
+    [DescriptionName],
+    [RepairObjectNumberName],
+    [ServiceKindName],
+    [ManufactoryName],
+    [DepotCodeName],
+    [ParentDepotCodeName],
+    [ResponsibleWorkerName],
+    [Qty],
+    [UnitName],
+    [RepairedCount],
+    [DateForReportName]
+)
+VALUES
+(
+	N'Поступление ТМЦ от Поставщика',
+	'№ 000003',
+	N'Получено',
+	'2018-10-17',
+	N'Не заполняется',
+	N'Не заполняется',
+	N'Не заполняется',
+	N'Приходный ордер (M-4)',
+	N'Не заполняется',
+	'МОРХ',
+	'МУС',
+	'Новицкая Наталья Ивановна',
+	0,
+	N'Не заполняется',
+	0,
+	'17.10.2018'
+);
+
+EXECUTE [PBI_11709].[Sp_stageReceiptOfInventoryItem_Sync]</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctReceiptOfInventoryItem_SyncTest_PosttestAction.SqlScript" xml:space="preserve">
+    <value>
+DECLARE @RecId INT = 1
+
+DELETE FROM PBI_11709.Ssis_stageReceiptOfInventoryItem_Temp WHERE RecId = @RecId
+DELETE FROM [pbi_11709].[stagePrintout] WHERE RecId = @RecId
+DELETE FROM [pbi_11709].[fctPrintout] WHERE RecId = @RecId
+DROP TABLE dbo.fctReceiptOfInventoryItem_Test</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctJobTicket_SyncTest_PretestAction.SqlScript" xml:space="preserve">
+    <value>
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageJobTicket)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageJobTicket
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageJobTicketByRepairControlType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageJobTicketByRepairControlType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageJobTicketByTestType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageJobTicketByTestType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageJobTicket_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageJobTicket_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageJobTicketByRepairControlType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageJobTicketByRepairControlType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageJobTicketByTestType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageJobTicketByTestType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].fctJobTicket)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].fctJobTicket
+END
+--=======================================================================
+
+DECLARE @RecId INT = 1
+
+INSERT INTO PBI_11709.Ssis_stageJobTicket_Temp
+(
+	[RecId],
+      [JobTicketType],
+      [JobTicketNumber],
+      [Status],
+      [CloseDateTime],
+      [RepairObject],
+      [Description],
+      [NameAlias],
+      [FactoryId],
+      [InventSerialId],
+      [InventBatchId],
+      [ServiceKindId],
+      [ManufactoryName_RepairItem],
+      [ManufactoryName_RepairLocomotive],
+      [RPayHrmOrganizationId],
+      [ParentOrganizationId],
+      [CloseWorker],
+      [ResponsibleWorker_CloseWorkerIsNotNull],
+      [ResponsibleWorker_CloseWorkerIsNull],
+      [Qty],
+      [UnitId],
+      [RepairedCount],
+      [WorkCenterId]
+)
+VALUES
+(@RecId,	1,	'ЗН0000205', N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',0,N'',0,N'')
+
+--=======================================================================
+
+INSERT INTO PBI_11709.Ssis_stageJobTicketByRepairControlType_Temp
+(
+	[RecId],
+      [JobTicketType],
+      [JobTicketNumber],
+      [Status],
+      [RepairConfirmDate],
+      [RepairObject],
+      [Description],
+      [NameAlias],
+      [FactoryId],
+      [InventSerialId],
+      [InventBatchId],
+      [ManufactoryName_RepairItem],
+      [ManufactoryName_RepairLocomotive],
+      [RPayHrmOrganizationId],
+      [ParentOrganizationId],
+      [ResponsibleWorker_RepairConfirm],
+      [Qty],
+      [UnitId],
+      [RepairedCount],
+      [WorkCenterId]
+)
+VALUES
+(@RecId,	2,	'ЗН0000555', N'', N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',0,N'',0,N'')
+
+--=======================================================================
+
+INSERT INTO PBI_11709.Ssis_stageJobTicketByTestType_Temp
+(
+	[RecId],
+      [JobTicketType],
+      [JobTicketNumber],
+      [Status],
+      [TestingDate],
+      [RepairObject],
+      [Description],
+      [NameAlias],
+      [FactoryId],
+      [InventSerialId],
+      [InventBatchId],
+      [ManufactoryName_RepairItem],
+      [ManufactoryName_RepairLocomotive],
+      [RPayHrmOrganizationId],
+      [ParentOrganizationId],
+      [ResponsibleWorker_Testing],
+      [Qty],
+      [UnitId],
+      [RepairedCount],
+      [WorkCenterId]
+)
+VALUES
+(@RecId,	3,	'ЗН0000777' ,N'', N'', N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',0, N'',0,N'')
+
+--=======================================================================
+
+EXECUTE Pbi_11709.Sp_stageJobTicket_Sync
+EXECUTE Pbi_11709.Sp_stageJobTicketByRepairControlType_Sync
+EXECUTE Pbi_11709.Sp_stageJobTicketByTestType_Sync</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctJobTicket_SyncTest_PosttestAction.SqlScript" xml:space="preserve">
+    <value>
+
+DECLARE @RecId INT = 1
+
+DELETE FROM [pbi_11709].stageJobTicket WHERE RecId = @RecId
+DELETE FROM [pbi_11709].stageJobTicketByRepairControlType WHERE RecId = @RecId
+DELETE FROM [pbi_11709].stageJobTicketByTestType WHERE RecId = @RecId
+
+--=======================================================================
+
+DELETE FROM PBI_11709.Ssis_stageJobTicket_Temp WHERE RecId = @RecId
+DELETE FROM PBI_11709.Ssis_stageJobTicketByRepairControlType_Temp WHERE RecId = @RecId
+DELETE FROM PBI_11709.Ssis_stageJobTicketByTestType_Temp WHERE RecId = @RecId
+
+--=======================================================================
+
+DELETE FROM [pbi_11709].fctJobTicket WHERE RecId IN (@RecId, @RecId+1, @RecId+2)</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctInventoryJournal_SyncTest_PretestAction.SqlScript" xml:space="preserve">
+    <value>
+
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageInventoryJournalByMovementType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageInventoryJournalByMovementType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageInventoryJournalBySpecificationType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageInventoryJournalBySpecificationType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageInventoryJournalByTransferType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageInventoryJournalByTransferType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageInventoryJournalByMovementType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageInventoryJournalByMovementType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageInventoryJournalBySpecificationType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageInventoryJournalBySpecificationType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageInventoryJournalByTransferType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageInventoryJournalByTransferType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].fctInventoryJournal)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].fctInventoryJournal
+END
+--=======================================================================
+
+DECLARE @RecId INT = 1
+
+INSERT INTO PBI_11709.Ssis_stageInventoryJournalByMovementType_Temp
+(
+	[RecId]
+      ,[Description]
+      ,[JournalId]
+      ,[Posted]
+      ,[TransDate]
+      ,[JournalNameId]
+      ,[ManufactoryName]
+      ,[PostedHrmOrganizationId]
+      ,[ParentOrganizationId]
+      ,[ResponsibleWorkerName]
+)
+VALUES
+(@RecId,	N'Получение МПИ',	'Ж7753026', 1, N'2021-08-09 00:00:00.000',N'',N'',N'',N'',N'')
+
+--=======================================================================
+
+INSERT INTO PBI_11709.Ssis_stageInventoryJournalBySpecificationType_Temp
+(
+	[RecId]
+      ,[Description]
+      ,[JournalId]
+      ,[Posted]
+      ,[TransDate]
+      ,[ItemId]
+      ,[NameAlias]
+      ,[InventSerialId]
+      ,[InventBatchId]
+      ,[JournalNameId]
+      ,[ManufactoryName]
+      ,[PostedHrmOrganizationId]
+      ,[ParentOrganizationId]
+      ,[ResponsibleWorkerName]
+      ,[Qty]
+      ,[UnitId]
+)
+VALUES
+(@RecId,	2,	'aaa', 0, N'',N'',N'',N'',N'',N'',N'',N'',N'',N'',0,N'')
+
+--=======================================================================
+
+INSERT INTO PBI_11709.Ssis_stageInventoryJournalByTransferType_Temp
+(
+	[RecId]
+      ,[JournalId]
+      ,[Posted]
+      ,[TransDate]
+      ,[JournalNameId]
+      ,[ManufactoryName_From]
+      ,[ManufactoryName_To]
+      ,[HrmOrganizationId_From]
+      ,[HrmOrganizationId_To]
+      ,[ParentOrganizationId_From]
+      ,[ParentOrganizationId_To]
+      ,[ResponsibleWorkerName_From]
+      ,[ResponsibleWorkerName_To]
+      ,[HcmWorker]
+      ,[ResponsibleWorkerName_To_UserInfo]
+)
+VALUES
+(2,	3,	1 ,N'', N'', N'',N'',N'ЮЗАУ',N'ЗБЕЛ',N'',N'',N'',N'',N'',N''),
+(3,	3,	0 ,N'', N'', N'',N'',N'ЗБЕЛ',N'ЗБЕЛ',N'',N'',N'',N'',N'',N''),
+(4,	3,	0 ,N'', N'', N'',N'',NULL,N'ЗБЕЛ',N'',N'',N'',N'',N'',N''),
+(5,	3,	1 ,N'', N'', N'',N'',N'ЗБЕЛ',NULL,N'',N'',N'',N'',N'',N''),
+(6,	3,	1 ,N'', N'', N'',N'',NULL,NULL,N'',N'',N'',N'',N'',N'')
+--=======================================================================
+
+EXECUTE Pbi_11709.[stageInventoryJournalByMovementType_update]
+EXECUTE Pbi_11709.Sp_stageInventoryJournalBySpecificationType_Sync
+EXECUTE Pbi_11709.Sp_stageInventoryJournalByTransferType_Sync</value>
+  </data>
+  <data name="Pbi_11709_Sp_fctInventoryJournal_SyncTest_PosttestAction.SqlScript" xml:space="preserve">
+    <value>
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageInventoryJournalByMovementType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageInventoryJournalByMovementType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageInventoryJournalBySpecificationType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageInventoryJournalBySpecificationType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].stageInventoryJournalByTransferType)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].stageInventoryJournalByTransferType
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageInventoryJournalByMovementType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageInventoryJournalByMovementType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageInventoryJournalBySpecificationType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageInventoryJournalBySpecificationType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM PBI_11709.Ssis_stageInventoryJournalByTransferType_Temp)
+BEGIN
+	TRUNCATE TABLE PBI_11709.Ssis_stageInventoryJournalByTransferType_Temp
+END
+--=======================================================================
+IF EXISTS (SELECT 1 FROM [pbi_11709].fctInventoryJournal)
+BEGIN
+	TRUNCATE TABLE [pbi_11709].fctInventoryJournal
+END
+--=======================================================================</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
